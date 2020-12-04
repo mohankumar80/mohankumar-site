@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+
+:root {
+    --primary-color: #EA580C;
+    --secondary-color: #F97316;
+    --blue-gray: #E2E8F0;
+    --cool-gray: #64748B;
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 0;
+}
+
+.container {
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.navbar {
+    background-color: var(--primary-color);
+}
+
+.navbar-brand {
+    color: white;
+    text-decoration: none;
+    padding: 0 1rem;
+    font-size: xx-large;
+}
+
+.navbar ul {
+    text-align: center;
+    padding: 0;
+}
+
+.list-non-bullet {
+    display: inline;
+    font-size: large;
+    list-style-type: none;
+    padding: 0 2rem;
+}
+
+.list-link {
+    color: white;
+    text-decoration: none;
+}
+
+.link-active {
+    font-weight: bolder;
+}
+
+.header-image {
+    max-width: 450px;
+}
+
+.header-heading {
+    color: var(--secondary-color);
+}
+
+.header-text {
+    font-size: large;
+}
+
+span {
+    color: var(--cool-gray)
+}
+
+.section-heading {
+    color: var(--secondary-color);
+}
+
+.section-text {
+    max-width: 450px;
+    margin: auto;
+    padding-bottom: 2rem;
+}
+
+.secondary-link {
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-size: large;
+    padding: 0.1rem;
+    border: 1px solid var(--secondary-color);
+    border-radius: 0.5rem;
+}
+
+.secondary-link:hover {
+    color: white;
+    background-color: var(--secondary-color);
+}
+
+section:nth-child(even) {
+    background-color: var(--blue-gray);
+}
+
+.footer-heading {
+    color: var(--secondary-color);
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.primary-link {
+    font-size: large;
+    text-decoration: none;
+    color: white;
+    background-color: var(--secondary-color);
+    padding: 0.15rem;
+    border-radius: 0.5rem;
+}
